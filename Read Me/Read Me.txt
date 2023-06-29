@@ -1,0 +1,19 @@
+Submission Dicoding - Tugas Akhir Membuat Website 
+Modul Belajar Dasar Pemrograman Web
+
+Nama : Steven
+Email Dicoding: steven04@student.unsia.ac.id
+
+===================================================================================================================
+
+ABOUT CREATOR
+Website ini dibuat sebagai pemenuhan / Submission pada kelas Dicoding.com sebagai syarat tugas akhir 
+membuat website, modul pembelajaran "Belajar Dasar Pemrograman Web".
+
+Design website ini dibuat berdasarkan referensi website pada salah satu sekolah kursus komputer 
+"Web Media Center" yang beralamat di kota Medan. Design web sepenuhnya hasil design dari Creator, 
+namun isi mengacu pada website referensi.
+
+
+
+

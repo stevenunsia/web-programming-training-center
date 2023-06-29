@@ -1,0 +1,510 @@
+/* Responsive ukuran small mobile 0-430 px */
+@media (min-width: 321px) and (max-width: 430px) {
+
+    /* navbar,button */
+    nav ul {
+        display: flex;
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        top: 0;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: -1;
+        background-color: rgb(215, 147, 240);
+        width: 100%;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    .burger-toggle {
+        display: flex;
+        position: absolute;
+        right: 2%;
+        z-index: 2;
+    }
+
+    nav ul.slide {
+        transform: translateX(0);
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .h1-logo {
+        width: 50%;
+        height: 5%;
+        top: 3.2%;
+        left: 38%;
+        font-size: 1.2em;
+    }
+
+    .main-logo {
+        width: 35%;
+        height: 10%;
+        top: 0.5%;
+        left: 1%;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+
+    /* Parallax intro */
+    .h1-parallax-intro {
+        font-size: 2em;
+        position: absolute;
+        top: 25%;
+    }
+
+    .p-parallax-intro {
+        position: absolute;
+        width: 90%;
+        top: 35%;
+        font-size: 1.5em;
+    }
+
+    .p-parallax-intro1 {
+        font-size: 0.8em;
+        top: 69%;
+    }
+
+    .button-reg {
+        font-size: 1.5rem;
+        line-height: 2em;
+        padding: 1.1%;
+        position: absolute;
+        top: 75%;
+        left: 12%;
+    }
+
+    /* Parallax body */
+    .parallax-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 110vh;
+        opacity: 1;
+    }
+
+    .h1-parallax-body {
+        display: flex;
+        font-size: 1.5em;
+        height: 110vh;
+        z-index: 2;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 380px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150%;
+        height: 500px;
+        max-width: 500px;
+        background: white;
+        margin: 20px 5px;
+        transition: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .card:hover {
+        height: 500px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card .img {
+        display: inline;
+        height: 200px;
+        width: 100%;
+    }
+
+    .card .img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card .top-text {
+        padding: 5px;
+    }
+
+    .card .top-text .name {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #202020;
+        text-align: center;
+    }
+
+    .card .top-text p {
+        font-size: 1em;
+        font-weight: 600;
+        color: #ff1900;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .card-text {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .card .bottom-text {
+        height: 20vh;
+        padding: 10px 10px 10px 10px;
+        margin-top: 0px;
+        background: white;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .card:hover .bottom-text {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .card .bottom-text .text {
+        text-align: justify;
+    }
+
+    .card .bottom-text .btn {
+        margin: 10px 0;
+        text-align: left;
+    }
+
+    /* parallax body 2 */
+
+    .parallax-body2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .parallax-body2-main {
+        width: 100%;
+        height: 280vh;
+        margin-top: 250%;
+        margin-bottom: 10%;
+    }
+
+    .body2-h1 {
+        margin-top: 65%;
+        width: 100%;
+        height: 10%;
+        font-size: 1.3em;
+        text-align: center;
+        display: flex;
+    }
+
+    .body2-content1 {
+        width: 95%;
+        height: 34%;
+        margin-top: 80%;
+        font-size: 1em;
+    }
+
+    .body2-content2 {
+        width: 95%;
+        height: 34%;
+        margin-top: 252%;
+        margin-right: 10%;
+        font-size: 1em;
+        left: 2%;
+        text-align: right;
+    }
+
+    .body2-h5 {
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1.2% 11%;
+    }
+
+    .content-icon1,
+    .content-icon2,
+    .content-icon3 {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 1%;
+    }
+
+    .content-icon4,
+    .content-icon5,
+    .content-icon6 {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 1%;
+    }
+
+    .content-icon1 {
+        top: 0.2%;
+    }
+
+    .content-icon2 {
+        top: 34%;
+    }
+
+    .content-icon3 {
+        top: 69%;
+    }
+
+    .content-icon4 {
+        top: 0.1%;
+    }
+
+    .content-icon5 {
+        top: 37%;
+    }
+
+    .content-icon6 {
+        top: 75%;
+    }
+
+    /* galery slide */
+    .body2-container {
+        width: 320px;
+        position: absolute;
+        overflow: hidden;
+        border: 10px solid #ffffff;
+        border-radius: 8px;
+        box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+        margin-top: 170%;
+    }
+
+    .wrapper-container {
+        width: 100%;
+        display: flex;
+        animation: slide 20s infinite;
+    }
+
+    /* Aside */
+
+    .parallax-body2-aside {
+        width: 100%;
+        height: auto;
+    }
+
+    .aside-h2 {
+        font-size: 1.3em;
+        width: 95%;
+        height: auto;
+        margin-top: -480%;
+    }
+
+    .aside-content1 {
+        width: 90%;
+        height: 100%;
+        font-size: 1em;
+        margin-top: -225%;
+        line-height: 1.2em;
+        text-indent: 0.7em;
+    }
+
+    /* Parallax footer */
+    .parallax-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        opacity: 1;
+    }
+
+    .h1-parallax-footer {
+        display: flex;
+        font-size: 1.5em;
+        height: auto;
+        z-index: 2;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 230%;
+        margin-bottom: 210%;
+    }
+
+    .card-footer {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        max-width: 500px;
+        background: white;
+        margin: 10px 5px;
+        transition: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-footer:hover {
+        height: 500px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-footer .img-footer {
+        display: inline;
+        height: 250%;
+        width: 100%;
+    }
+
+    .card-footer .img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-footer .top-text-footer {
+        padding: 5px;
+    }
+
+    .card-footer .top-text-footer .name-footer {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #202020;
+        text-align: center;
+    }
+
+    .card-footer .top-text-footer p {
+        font-size: 1em;
+        font-weight: 600;
+        color: #ff1900;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .card-text-footer {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .card-footer .bottom-text-footer {
+        height: 20vh;
+        padding: 10px 10px 10px 10px;
+        margin-top: 0px;
+        background: white;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .card-footer:hover .bottom-text-footer {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .card-footer .bottom-text-footer .text-footer {
+        text-align: justify;
+    }
+
+    .card-footer .bottom-text-footer .btn-footer {
+        margin: 10px 0;
+        text-align: left;
+    }
+
+    /* Testimoni */
+    .container-testimonial {
+        display: flex;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .h3-testimonial {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .slider__inner {
+        position: absolute;
+        margin-top: 20%;
+        left: 0;
+        width: 400%;
+        height: 10vh;
+        justify-content: center;
+        -webkit-transition: left 0.4s;
+        transition: left 0.4s;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    }
+
+    .img-testimonial {
+        width: 150px;
+        height: 150px;
+        border-radius: 200px;
+        margin-bottom: 1%;
+    }
+
+    /* Footer */
+
+    .footer-container {
+        width: 100%;
+        height: 85vh;
+    }
+
+    .fcontainer-head {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fcontainer-body1 {
+        text-align: left;
+        width: 100%;
+        font-size: 0.9em;
+        margin-bottom: 10%;
+    }
+
+    .fcontainer-body2 {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .fbody-li {
+        text-decoration: none;
+        color: black;
+        text-align: left;
+        margin-top: 1.5%;
+        line-height: 1.4em;
+        list-style: none;
+        font-size: 0.9em;
+        padding-left: 0%;
+    }
+
+    .fbody-h6-1 {
+        padding-left: 0%;
+    }
+
+    .fcontainer-body3 {
+        text-align: left;
+        width: 100%;
+    }
+
+    .footer-footer {
+        font-size: 0.9em;
+        text-align: center;
+    }
+}
