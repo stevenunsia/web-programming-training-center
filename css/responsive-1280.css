@@ -1,0 +1,166 @@
+/* Responsive ukuran mobile & smart phone 0-1280 px */
+@media (min-width: 836px) and (max-width: 1280px) {
+
+    /* navbar,button */
+    nav ul {
+        display: flex;
+        position: absolute;
+        right: 1%;
+        width: 50%;
+    }
+
+    .main-logo {
+        display: flex;
+        position: absolute;
+        top: 0.5%;
+        left: 0.5%;
+        width: 10%;
+        height: 10%;
+        align-items: center;
+    }
+
+    .h1-logo {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        height: 5%;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4em;
+        left: 11%;
+        top: 3%;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 1;
+    }
+
+    /* Parallax Intro */
+
+    .p-parallax-intro {
+        font-size: 1.4em;
+    }
+
+    /* Parallax Body 1  */
+    .card {
+        height: 320px;
+    }
+
+    .card .bottom-text {
+        height: 25vh;
+    }
+
+    /* Parallax Body 2 */
+
+    .body2-container {
+        width: 500px;
+    }
+
+    .body2-content1,
+    .body2-content2 {
+        margin-top: 37%;
+    }
+
+    .body2-h5 {
+        font-size: 1.2em;
+    }
+
+    .content-icon1,
+    .content-icon2,
+    .content-icon3 {
+        width: 35px;
+        height: 35px;
+        left: 0.8%;
+    }
+
+    .content-icon4,
+    .content-icon5,
+    .content-icon6 {
+        width: 35px;
+        height: 35px;
+        right: 0.8%;
+    }
+
+
+    .content-icon1 {
+        top: 1.5%;
+    }
+
+    .content-icon2 {
+        top: 41%;
+    }
+
+    .content-icon3 {
+        top: 72%;
+    }
+
+    .content-icon4 {
+        top: 1.5%;
+    }
+
+    .content-icon5 {
+        top: 37%;
+    }
+
+    .content-icon6 {
+        top: 70%;
+    }
+
+    /* Aside */
+
+    .aside-h2 {
+        font-size: 1.3em;
+    }
+
+    .aside-content1 {
+        font-size: 1.1em;
+        margin-top: 6%;
+        line-height: 1em;
+        text-indent: 1em;
+    }
+
+    /* Parallax Footer */
+
+    .card-footer {
+        height: 320px;
+    }
+
+    .card-footer .bottom-text-footer {
+        height: 25vh;
+    }
+
+    .container-footer {
+        margin-bottom: 7%;
+    }
+
+    /* Testimonial */
+
+    .container-testimonial {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+
+    .h3-testimonial {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .slider {
+        height: 65vh;
+    }
+
+    /* Footer */
+
+    .footer-container {
+        height: 32vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
